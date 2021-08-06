@@ -1,0 +1,28 @@
+{
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FourScript/notepad.git"
+  },
+  "author": "Felix Lebel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FourScript/notepad/issues"
+  },
+  "homepage": "https://github.com/FourScript/notepad#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-decoupled-document": "^29.1.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.27",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0"
+  }
+}
