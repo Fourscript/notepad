@@ -1,0 +1,71 @@
+#title-quick-notes {
+    font-size: 45px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+#quick-notes {
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 26px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: none;
+}
+
+.clickable {
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.clearIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#clear,
+#redo,
+#copy,
+#download,
+.icons {
+    display: inline-block;
+}
+
+#actions {
+    float: right;
+}
+
+#countdown {
+    float: left;
+}
+
+/* #edit {
+    padding: 5px;
+    border: 1px grey solid;
+    border-radius: 5px;
+} */
+
+#footer-bar {
+    height: 25px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 26px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: none;
+}
+
+.clickable:hover {
+    opacity: 65%;
+
+    background-color: rgb(193, 193, 252);
+}
+

@@ -1,15 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>4S Notepad Test</title>
-        <link rel="stylesheet" href="dist/app.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js"></script>
+        <title>FourScript | Notepad</title>
     </head>
-
     <body>
-        <div class="editorContainer">
-            <div id="editor-toolbar-container"></div>
-            <div id="editor"></div>
+        <p id="title-quick-notes">Quick Notes:</p>
+        <textarea id="quick-notes" maxlength="200" placeholder="Start typing your notes here.."></textarea>
+        <div id="footer-bar">
+            <div id="countdown">100</div>
+            <div id="actions">
+                <div class="icons" id="edit">
+                    <div id="clear">
+                        <button class="clickable" id="clearButton" onclick="clearText()">
+                            <img src="./icons/delete_black_24dp.svg">
+                        </button>
+                    </div>
+                    <div id="redo">
+                        <button class="clickable" id="returnButton" onclick="returnText()">
+                            <img src="./icons/assignment_return_black_24dp.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="icons" id="save">
+                    <div id="copy">
+                        <button class="clickable" id="copyButton" onclick="copyText()">
+                            <img src="./icons/content_copy_black_24dp.svg">
+                        </button>
+                    </div>
+                    <div id="download">
+                        <button class="clickable" id="downloadButton" onclick="downloadText()">
+                            <img src="./icons/file_download_black_24dp.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <script src="dist/index.js" defer></script>
     </body>
 </html>
