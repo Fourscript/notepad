@@ -65,7 +65,57 @@
 
 .clickable:hover {
     opacity: 65%;
-
     background-color: rgb(193, 193, 252);
 }
 
+.cleared {
+    width: 404px;
+    height: 15px;
+    background-color: #F0DB4F;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.returned {
+    width: 404px;
+    height: 15px;
+    background-color: #4f9df0;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.copied {
+    width: 404px;
+    height: 15px;
+    background-color: #54f04f;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.downloaded {
+    width: 404px;
+    height: 15px;
+    background-color: rgb(233, 58, 58);
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}

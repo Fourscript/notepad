@@ -10,9 +10,10 @@
     </head>
     <body>
         <p id="title-quick-notes">Quick Notes:</p>
-        <textarea id="quick-notes" maxlength="200" placeholder="Start typing your notes here.."></textarea>
+        <textarea id="quick-notes" maxlength="200" placeholder="Start typing here.." onkeyup="updateCountdown()"></textarea>
         <div id="footer-bar">
-            <div id="countdown">100</div>
+            <div id="countdown">200 </div>
+            <span id="characters-left">&nbsp;characters left</span>
             <div id="actions">
                 <div class="icons" id="edit">
                     <div id="clear">
@@ -40,5 +41,6 @@
                 </div>
             </div>
         </div>
+        <div id="alert"></div>
     </body>
 </html>
