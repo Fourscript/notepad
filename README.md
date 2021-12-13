@@ -6,7 +6,7 @@
 
 # :speech_balloon: Project Information
 > **Name:** "Homepage Widget: Notepad"  
-> **Description:** Allows users to type in a notepad and save their entry as a text file.
+> **Description:** Allows users to type in a notepad and save their entry as a text file.  
 > **Languages:** HTML, CSS, JavaScript  
 > **Start Date:** 08/10/2021  
 > **End Date:** 08/12/2021  
